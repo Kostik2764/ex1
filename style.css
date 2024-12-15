@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    background: #FFDB8B;
+}
+
+.pro {
+    background: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.15);
+}
+
+.pro > a {
+    color: black;
+    text-decoration: none;
+}
+
+.pro > a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.project1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 330px;
+    height: 30px;
+
+    background: white;
+
+    padding: 10px;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.15);
+}
+
+.not {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.not:hover {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background: none;
+    color: red;
+    cursor: pointer;
+}
+
+.project2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 330px;
+    height: 30px;
+
+    background: white;
+
+    padding: 10px;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.15);
+}
+
+.undo {
+    border: none;
+    background: none;
+
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.undo:hover {
+    color: white;
+    background: red;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.project0 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media ( max-width: 600px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project1 {
+        width: 125px;
+        height: 20px;
+    }
+
+    .project2 {
+        width: 125px;
+        height: 20px;
+    }
+
+    .project0 {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+
+@media ( max-width: 350px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project0 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
